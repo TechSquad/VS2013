@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="db_Url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">"nortechcomputers.co.uk"</Value>
+    </Setting>
+    <Setting Name="db_User" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">"rogeradmin"</Value>
+    </Setting>
+    <Setting Name="db_Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">"h00ters"</Value>
+    </Setting>
+    <Setting Name="db_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">"nortechadmin1_test"</Value>
+    </Setting>
+    <Setting Name="dev_security" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
