@@ -47,9 +47,10 @@
         myTable = CapturePlus_Interactive_Find_v2_10(m_postcode)    'Get address data from Capture Plus
         'Look for errors
         If myTable.Columns.Item(0).ColumnName = "Error" Then
-            Dim my_error As String = "Postcode Lookup Error No: " & myTable.Rows(0).Item(0).ToString & vbCrLf & myTable.Rows(0).Item(1).ToString & vbCrLf & myTable.Rows(0).Item(2).ToString
+            Dim my_error As String = "Postcode Lookup Error No: " & myTable.Rows(0).Item(0).ToString & vbCrLf & myTable.Rows(0).Item(1).ToString & vbCrLf & myTable.Rows(0).Item(2).ToString & vbCrLf & "Reported in frmPostcodeLookup Sub PostcodeLookup"
             MsgBox(my_error)    ' Display Error Message
-            Me.Close()          ' Close Form
+            Me.Hide()          ' Hide Form
+            _abort = True
         Else
             With DataGridView1  'Populate Grid with addresses
                 .DataSource = myTable

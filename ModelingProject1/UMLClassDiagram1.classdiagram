@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7128238a-ebec-47e9-bef9-418d040601f0" name="UMLClassDiagram1" linkedPackageId="23cc1612-5bb8-40a8-aa10-723dd372c686" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="ccf1c88c-603a-486a-9b4c-acf3264e1418" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="242838bf-41c4-41bf-8d86-e86033b1df14" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b908f0c8-06ea-444c-83f8-6157aeb1265b">
+          <propertyInstance Id="940072d1-f443-432d-9cb6-c1b793ca00b8" name="BaseName">
+            <elementDefinition Id="bc0e85c7-6827-40bd-b13a-aa928b96f8e6" />
+          </propertyInstance>
+          <elementDefinition Id="efe88c4e-f860-48c6-96b8-a3d334e0e09a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a59e5a0d-a8ad-4871-8390-34f59c582315">
+          <propertyInstance Id="d84d866f-a7b0-4693-be20-edf59dc47989" name="ClrAttributes">
+            <elementDefinition Id="c62e4430-20b0-41fd-b05b-16484750c557" />
+          </propertyInstance>
+          <elementDefinition Id="28ccb99b-69e6-4f29-a2e0-52e2f5333168" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="30ead45d-9b59-421d-a74d-5544003973b0">
+          <propertyInstance Id="6ea9d56b-1f6f-4444-868e-5eaedf65b871" name="Usings">
+            <elementDefinition Id="7ff77855-0d70-48da-ae23-3283e12a32f5" />
+          </propertyInstance>
+          <elementDefinition Id="cd152982-2807-456a-b8f1-a2dd645f54ef" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="6ce7027a-b987-4b4e-95ef-b319ff34c5d1" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="0b10adb8-3ae9-45d2-a1f8-ee8c6c4cfadb" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2ff3b140-638a-4723-b637-dcaa2f55daad">
+          <propertyInstance Id="20216137-e013-421b-be43-1ba75ee7ade5" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="51c2f675-ca1d-4a08-8ff8-9e31d06af30a" />
+          </propertyInstance>
+          <elementDefinition Id="310387a2-6066-4473-bf2f-3a539e322d91" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6a60abea-d663-4cd7-85da-aad8c6045986">
+          <propertyInstance Id="4acf2185-863f-48e0-b5a7-c7ecdddfd5b8" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="7e15b422-aff6-44fe-bf29-bd6e23cf3779" />
+          </propertyInstance>
+          <elementDefinition Id="4df17fee-3d23-4408-af30-02a02f0cb806" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="973d190c-38d9-4e53-8433-b646859ba46b">
+          <propertyInstance Id="e10b879d-5ffe-4a26-9854-ed011921e55d" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="1ec8235b-14b8-43e1-bb4b-4369c6e60961" />
+          </propertyInstance>
+          <elementDefinition Id="11ef43b0-5b6e-4986-936a-b81a4ba771fd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="053527d7-1108-40c9-bd9d-6dee21c31a61">
+          <propertyInstance Id="878d59d8-09b9-4dd4-a8b0-754f2b8b8f1e" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="1f9ff696-f7e3-4a8f-82cf-b850fa04a9cb" />
+          </propertyInstance>
+          <elementDefinition Id="3e41e7a0-4ede-4de9-9f8a-52c952c32c76" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9afbe6aa-452d-484c-82ec-eba26ad210b3">
+          <propertyInstance Id="52054eb3-ab41-4047-a7bd-e8907628df71" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="d4b38cac-9003-4633-b503-52fe10d3beb3" />
+          </propertyInstance>
+          <elementDefinition Id="59f3c664-40bd-41c5-af37-8625f39c4323" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="25b823b3-2581-4bc3-8c3e-3d95733a1265">
+          <propertyInstance Id="d03a3d2a-0dcd-4cb9-a624-92d97bdb6b95" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="bd4d1b64-ca62-4e24-8316-ddb51fa4ffe0" />
+          </propertyInstance>
+          <elementDefinition Id="36c4bbda-f943-4173-8412-acafdcf574ee" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="642d75e0-e9d7-498a-812c-529a8c4e0726">
+          <propertyInstance Id="e7ee78de-f549-48cc-acb6-1862c509a4c3" name="Parameters">
+            <elementDefinition Id="e01eb99c-cedb-49d2-a34b-2b66f96346ce" />
+          </propertyInstance>
+          <elementDefinition Id="ec00c0a6-bb0f-42a7-86be-a6dafed90324" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="37b4dc05-8d92-4c7f-85d6-8b66bb5b80e4">
+      <profileInstance Id="a3bc6099-73f0-4623-9498-1d48c32d67d2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d80112b6-1e51-49fe-8720-398467919410">
+      <profileInstance Id="b3a4fb99-8a28-4e69-bdad-b663561acee0" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="138d38d9-93a9-4527-9068-6373f33cdcb9">
+      <profileInstance Id="938398c4-4a65-499e-b6a6-354db8aa0203" name="CSharpProfile">
+        <elementDefinition Id="06d61a3d-5b0f-4fc2-8029-eb8e7e5f5a54" />
+      </profileInstance>
+      <elementDefinition Id="e3eea571-2e73-4594-8a7d-1ad46e8feb4c" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a8e89731-7b3f-4664-8872-31cd6969cce0">
+      <profileInstance Id="604c6eb1-d7c2-42d6-90e0-4e5bc4bba592" name="TextTemplateBindings">
+        <elementDefinition Id="1e794612-7c6d-4a17-a368-1003a9bbbaa0" />
+      </profileInstance>
+      <elementDefinition Id="796ddd5c-270c-48fd-a403-f3589145bcf5" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="585302b1-892b-4516-8495-e7ff88a049b1" name="ClassEmailHandling" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="abd5cec1-a982-41f6-8ec2-9d05124a8b78" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling" tag="ViewCode">
+            <elementDefinition Id="0134feeb-b9bc-4286-a5a5-b8567b8efc5e" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="8c284925-7ee0-44ed-85fa-889d822b273d" />
+        <ownedAttributesInternal>
+          <property Id="7b4609d0-d3bb-487f-a0fe-78ef9c4ed2b5" name="body" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="571c8baa-6add-4db3-ad88-6fa510af151c" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling Member%3Dbody" tag="ViewCode">
+                <elementDefinition Id="7ae0fa25-0223-4419-8189-aade2fbbcb5b" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="ff8d0095-cb8c-4c9f-bf68-9202c578a5d2" />
+          </property>
+          <property Id="2588f17c-a8b8-437f-9524-1e69d21dab22" name="receiver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="3a6566b1-bc17-466e-96ea-e8bbd165960b" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling Member%3Dreceiver" tag="ViewCode">
+                <elementDefinition Id="da091bb0-8845-4b76-824c-1b1102a87caf" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="8e675916-a599-40d6-aaa3-d061a338dd67" />
+          </property>
+          <property Id="7a1d72d2-0829-479c-803e-8c7a0b0a05f8" name="subject" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="e2e059f4-2e15-46e3-b837-394bbe2ca08c" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling Member%3Dsubject" tag="ViewCode">
+                <elementDefinition Id="c052b1d0-3d0e-4801-a907-e1cffc6128b0" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="19595fff-3261-4085-8ec9-8e67325be66e" />
+          </property>
+          <property Id="df7b5e69-a18f-4a6a-8f7a-9c7c9f21c77a" name="_body" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="bd542e7f-6321-4869-acdf-2236fc8bc3eb" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling Member%3D(Name%3D_body IsCompilerGenerated%3DTrue)" tag="ViewCode">
+                <elementDefinition Id="54d907ed-9e88-4811-8ca0-d05fcee4423e" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="0c1a522c-2421-416a-b4b3-0ee0e17cea21" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="a3d5d08c-95d8-4eef-ab5b-9d10931725f6" name="_receiver" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="22b7f42b-bef9-4318-bd16-9f98575bbb92" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling Member%3D(Name%3D_receiver IsCompilerGenerated%3DTrue)" tag="ViewCode">
+                <elementDefinition Id="5efa32ad-d32b-41d5-9159-ca6f9608c5a1" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="c19c3a7c-ae2e-420f-8112-facd0383fe72" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="c5f4c8c2-a24a-49d8-b729-cbcedec1af80" name="_subject" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="493ac03d-7e7c-4057-bc78-bb528217666b" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling Member%3D(Name%3D_subject IsCompilerGenerated%3DTrue)" tag="ViewCode">
+                <elementDefinition Id="7c9e330a-40eb-438a-a8a9-8ffba71760b3" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="81909dbd-b95d-4ed5-b343-5bf9784ef5f9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="596da984-03be-4e31-bbfa-a1f923b5b969" name="send_email" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="335e6226-6699-4267-9cb0-3ac385817f61" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassEmailHandling Member%3Dsend_email" tag="ViewCode">
+                <elementDefinition Id="2fdb79d5-faa3-4c32-ba1e-c7aa873f001c" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="9ede9fd2-5cab-438d-8a05-fa21349fc996" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="f02a5e8a-ee98-4bce-a038-d91fba958448" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d1b8e909-6f52-4b49-9976-2a0320f1123a" name="ClassMySQL_Basic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="10eaaacc-e8ff-485d-848c-9efa7343e607" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic" tag="ViewCode">
+            <elementDefinition Id="c65517c4-a4b0-45b7-ac18-a4f0d1275a4b" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="24c1cb1a-fe8d-43ba-862f-e1d1c4fc4eb2" />
+        <ownedAttributesInternal>
+          <property Id="5d819c16-c6fc-4655-8b32-3932a96ad2c9" name="LastInsertedId" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="0e7efebf-b73b-4120-ac15-f126e9e8bfb1" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DLastInsertedId" tag="ViewCode">
+                <elementDefinition Id="ed4913c0-932d-4f30-8dde-9b6b230c1e9c" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="bdf8dba5-bb3f-4e5c-b703-3227dfb0b922" />
+          </property>
+          <property Id="22cc80e6-73b1-4d07-bb0d-d9e981bc380a" name="RecCount" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="b1345087-4e71-4c06-a16b-1ec20882ecdc" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DRecCount" tag="ViewCode">
+                <elementDefinition Id="e7e2b157-e85c-41e1-bb4f-0c40c4a8b1c2" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="f7c7c70c-0c56-4a99-ad9d-7a43ea5aa724" />
+          </property>
+          <property Id="044f3bec-9da2-4cd1-a545-513c61cf2578" name="Success" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="732b82ab-3cda-4d16-bba9-12e998bf47b1" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DSuccess" tag="ViewCode">
+                <elementDefinition Id="e88a7424-bbc0-4be6-951c-a4a2c044e8a9" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="e077a006-6422-4055-b176-62dcb8927f3c" />
+          </property>
+          <property Id="381d6333-1448-4772-82af-a3f804ee965d" name="Table" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="d20886ee-88aa-4764-84ba-11b47ff8458c" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DTable" tag="ViewCode">
+                <elementDefinition Id="ce1a6f4b-cbad-4bba-8580-ec829c100080" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="9e405ce3-aca9-45d3-ac75-a2b2250cbed0" />
+          </property>
+          <property Id="a81afadc-7d88-4d6c-9d2e-7bad582903a8" name="db_Name" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="785cbdd2-f51a-4eab-b3c1-2c8de512716b" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3Ddb_Name" tag="ViewCode">
+                <elementDefinition Id="4943055f-5e80-4fab-892f-7ff53f3e0e25" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="ce6bbc4e-c02b-4139-b591-169d2100ee36" />
+          </property>
+          <property Id="f290160a-494a-4334-9ea3-f446cb7cb9b4" name="db_Password" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="5d3df83f-e8e3-4f3d-8a46-f5dc23615eb0" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3Ddb_Password" tag="ViewCode">
+                <elementDefinition Id="2dabab80-5dc2-40f3-bf29-7cdd10a75c2d" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="f2323d9f-7448-4bd0-9799-67601c9b0322" />
+          </property>
+          <property Id="4257cf1a-7424-4e00-a670-f8284bc4cebb" name="db_Url" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="6438052c-3295-4359-ae84-f1554b0f143e" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3Ddb_Url" tag="ViewCode">
+                <elementDefinition Id="ee994ca6-9a55-4993-9528-bd33ba020bbd" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="6b2ce961-f296-41f1-9f56-1edc8db8d005" />
+          </property>
+          <property Id="cd1938f1-8cae-47ec-b454-11200f2094ac" name="db_User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="4a37a54b-27be-4152-97bb-da1a59a1ee19" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3Ddb_User" tag="ViewCode">
+                <elementDefinition Id="f3545a9a-74b2-4378-9aac-7d54fd0c32e6" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="b9e03f8f-44f8-4396-be48-c18b88d08ac0" />
+          </property>
+          <property Id="52cdd608-aed9-4a59-87d5-a3a24f5f1354" name="errorText" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="ed96969a-df91-498e-a8fb-0952574f6cac" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DerrorText" tag="ViewCode">
+                <elementDefinition Id="0daeda76-7c89-4bbf-ada6-1d37406f2413" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="0c8a45b6-f51d-4cff-8c62-05d6d8e0989e" />
+          </property>
+          <property Id="d7cf82a2-4770-4b13-911b-5e9fe77fda6e" name="rowsAffected" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c41f6c9a-7a26-4f1c-8eb0-93d91d8b5720" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DrowsAffected" tag="ViewCode">
+                <elementDefinition Id="8461e971-7c3f-43a3-8cf0-216c9b531aa1" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="28813f76-da1d-4348-b6c6-1314a02d03b6" />
+          </property>
+          <property Id="af706279-8615-419f-9961-bfd44c0071a5" name="_LastInsertedId" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="6cff3b72-0811-4d4e-8183-02907a8c3db3" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_LastInsertedId" tag="ViewCode">
+                <elementDefinition Id="531d616f-9539-4f29-9a94-377db840239c" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="bc89a820-ee5c-41b4-b951-49f755a71c90" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1c464c4e-37ad-4573-b2b8-8f93195003ce" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="d4233bae-51f4-48b3-afe9-e34ddf36a280" name="_Table" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="9554bb5c-7817-407b-8144-d0a1ce571b84" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_Table" tag="ViewCode">
+                <elementDefinition Id="5dec599f-6549-43dc-9815-44d3b332806f" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="abcc1c35-b459-40f3-b0be-61db91c39f13" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="476a72db-bfa0-4486-9721-c184d22f27ea" LastKnownName="DataTable" />
+            </type_NamedElement>
+          </property>
+          <property Id="94583594-a9d8-40c2-afd6-5252edd78fc2" name="_db_Name" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c2a658aa-8339-439d-88ea-39eba5343de5" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_db_Name" tag="ViewCode">
+                <elementDefinition Id="99633074-01fa-468f-9c0b-d10e9c1239e2" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="dbc5cac4-30d8-4af3-b2c5-4439236621f0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="18c786ab-c355-433d-861a-d3b1eb09bd34" name="_db_Password" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="f7f974f0-9aae-4ac5-8fbd-5513315afaab" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_db_Password" tag="ViewCode">
+                <elementDefinition Id="376df3d6-cade-488f-8313-153da17d0e6f" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="9a578965-66df-40a4-bfa0-03ce629f6fc9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="76afcbc9-841f-4b92-a71a-08fb05a8f1e5" name="_db_Url" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c309859e-940b-4b67-bb40-ed155cdad432" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_db_Url" tag="ViewCode">
+                <elementDefinition Id="7f8a9b09-c49c-4d4a-98f4-091da3079008" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="5a8ed005-65a6-4a33-aa00-cc4b44ab990c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="f9d5bd72-7797-4d38-b0fc-6d5661eed504" name="_db_User" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="d610db38-72b1-42bc-b5b1-9d7ccd476f76" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_db_User" tag="ViewCode">
+                <elementDefinition Id="bf0e8664-b208-4a23-bdc6-5eae555839ca" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="313feece-ed32-4202-b614-6821d68fc53d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="d22d534d-1ba5-45ba-a3a6-e55a6170349f" name="_errorText" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="5b82bbae-0065-4404-bb26-07396aace689" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_errorText" tag="ViewCode">
+                <elementDefinition Id="f6d49abf-4b36-4be8-8b52-bd11fde9f2f6" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="3482946a-b297-49bc-b56f-2bafbda5386a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="f3a63b4a-125d-4a58-82b2-81c8ea34be52" name="_recCount" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="74448da7-2f2f-43dd-bdcd-151634ea9ca0" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_recCount" tag="ViewCode">
+                <elementDefinition Id="a37888aa-4f58-4e30-8f4f-d34c318c120b" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="79f18803-0b71-47b6-9319-560bcc511c72" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1c464c4e-37ad-4573-b2b8-8f93195003ce" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="597d9e3e-9158-4b83-9ddc-bfe4b60e08e2" name="_rowsAffected" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c7b16b1a-ae8a-435d-9538-493e390aedaf" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_rowsAffected" tag="ViewCode">
+                <elementDefinition Id="29481fb0-e0a1-411c-b92e-4ae1d86ec9fa" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="ac50c96f-2724-423f-bb05-2cba8f1d3803" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1c464c4e-37ad-4573-b2b8-8f93195003ce" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="69ac3d50-b322-4f4b-909f-0c554a334247" name="_success" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="692099d0-7539-4e97-80fa-5af74711aa76" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D_success" tag="ViewCode">
+                <elementDefinition Id="8522624c-5960-4d13-bcbd-9fb934f8aa9f" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="785d5f4b-89c0-4522-9b2b-4f773f32b78e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8bb0ebc1-0e99-421e-90c0-1cba0cd05cc3" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="4de36965-3d22-4857-976f-f55c82fc1919" name="CreateTable" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a4526aa7-7d5d-49fd-808f-431579e65228" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DCreateTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])" tag="ViewCode">
+                <elementDefinition Id="45f44305-14cc-452d-a533-70cae7ba45ba" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="5b26b06f-52ba-4594-92a3-847124aa2b5b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="989c0365-8db3-4db1-9ac0-3dfa58e3e6e1" name="db_table_sql" direction="In">
+                  <referencesInternal>
+                    <reference Id="eb1c99c2-ecce-4c89-a5b7-6996531979a0" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DCreateTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3Ddb_table_sql" tag="ViewCode">
+                      <elementDefinition Id="ab24fd66-efc6-4f60-8eef-0541bdb04349" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="feff854c-5e74-408c-a878-228a92d43c17" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1095edbe-b421-4767-b8b1-3814b1a10b08" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="bb6e442f-b716-460a-b9df-ac04d70b360b" name="G_Error" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a7a9d310-5cea-47bc-9fc7-5d5bf91c7e5a" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DG_Error OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="0f93f62e-6c7a-4fd1-bdc2-5d34cc09f738" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="169a4e35-0cc1-475c-ac6a-f8a0fe96367d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2d753405-e125-48be-9c9d-f599ea937024" name="errorMessage" direction="In">
+                  <referencesInternal>
+                    <reference Id="7f8b2588-0bbe-4e90-bc71-3ebf406fb1b8" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DG_Error OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DerrorMessage" tag="ViewCode">
+                      <elementDefinition Id="15727636-8cd0-4052-9194-42e4f5fb32e3" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="45b3a837-aead-4051-997e-9d39a56e411c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="caf9607d-0413-467f-aa10-76eb7868de26" name="MySQL_Action_Query" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="936172c3-3404-4cfb-aa41-bee4373bbef7" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_Action_Query OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="29f255af-756a-4ae7-ab0c-c77a1305e427" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="c09952cb-50c4-4075-8069-c7ec0dd7e737" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4ec0f6f6-4345-4a9a-9362-3048ee28f673" name="SqlQuery" direction="In">
+                  <referencesInternal>
+                    <reference Id="e477884e-1fed-4ff8-85a2-3e9b6158ca1b" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_Action_Query OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DSqlQuery" tag="ViewCode">
+                      <elementDefinition Id="a31ccb70-d504-4539-b773-6c6ce62869b9" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="cddc0698-6737-4517-9690-4f1e17a79166" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="651a8311-866f-4a72-a27c-12b1becb133a" name="MySQL_Select_Query" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c0f459d6-5952-4442-a975-ddcce441db88" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_Select_Query OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="f62930fc-cb4f-4375-9e57-1e524c222454" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="d1c2b901-a82e-41b3-a654-efa85c8715db" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dcbf5b34-27f5-478b-8f72-563efc74252a" name="SqlQuery" direction="In">
+                  <referencesInternal>
+                    <reference Id="2c1319d4-d11e-4612-b1c4-3be5d5dbb709" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_Select_Query OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DSqlQuery" tag="ViewCode">
+                      <elementDefinition Id="7db0090f-ea6f-42f3-b237-63c9419db109" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="10bf24ea-cd3b-4078-b314-a28a8a93981e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0cdb83c7-8327-424f-9fd7-1f910e1de416" name="MySQL_close_connection" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="f73cebc2-3ed7-4551-a94b-390ea7189c04" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_close_connection OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMySQL%2FMySQL Connector Net 6.8.5%2FAssemblies%2Fv4.5%2FMySql.Data.dll&quot; Namespace%3DMySql.Data.MySqlClient Type%3DMySqlConnection)])" tag="ViewCode">
+                <elementDefinition Id="aed66392-9f6f-470f-9fb0-c4f66596c50f" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="e70344b5-7a37-4b57-95da-91f23fd999c3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="86d11a2e-dfe1-4785-aed6-c799795f68c8" name="CN" direction="In">
+                  <referencesInternal>
+                    <reference Id="fecf89ed-04c1-48d7-a174-db4ba4e912d5" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_close_connection OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMySQL%2FMySQL Connector Net 6.8.5%2FAssemblies%2Fv4.5%2FMySql.Data.dll&quot; Namespace%3DMySql.Data.MySqlClient Type%3DMySqlConnection)]) ParameterIdentifier%3DCN" tag="ViewCode">
+                      <elementDefinition Id="2958638d-1b84-4a11-b039-46a0fefee83f" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="98857f84-9961-401e-9aa8-4d146167b60d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d9408814-1481-4e5c-bfc2-0f6e3610bf76" LastKnownName="MySqlConnection" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c522e973-a702-411d-8f9a-38bb38708df5" name="MySQL_get_record_count" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4f4cb4e6-81f0-4be0-ba1e-27be118c4e41" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_get_record_count OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="4f029f83-2337-436c-8933-6094df2fe78f" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="85a1c7af-45cb-4073-8b7f-bf2446eea509" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2886befd-ae27-4731-832d-e4c91db1162b" name="SqlQuery" direction="In">
+                  <referencesInternal>
+                    <reference Id="bc5fcfa1-0941-4a0a-9c0e-4323b809389d" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3D(Name%3DMySQL_get_record_count OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DSqlQuery" tag="ViewCode">
+                      <elementDefinition Id="c4a6a7e8-0fb8-4acc-b462-99c4aaa8b192" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="abc537cd-6d30-4da0-9789-d8049f71c475" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f02a5e8a-ee98-4bce-a038-d91fba958448" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="69bd0785-2444-43d2-8632-64c99d967bc3" name="CreateDatabase" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4d77d8fe-b215-4ab7-a87c-9fff607c1a8f" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DCreateDatabase" tag="ViewCode">
+                <elementDefinition Id="9cb388e2-d35f-4cf7-9803-20782c0d10bb" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="71e5fd5f-e028-4b00-a597-187b2423a830" />
+          </operation>
+          <operation Id="98a4a9fa-0b9e-46ff-b6d2-a87e354d3a3d" name="DoesDbExist" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="06534e9c-b2fe-46a2-a5bf-7a5ed05abea8" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DDoesDbExist" tag="ViewCode">
+                <elementDefinition Id="7df89c3c-db92-44bd-96f3-61705a7698ed" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="06c8f767-c462-4248-8ef5-9c9a8f6c52c2" />
+          </operation>
+          <operation Id="97e5c0fb-090b-4282-9acc-795aa1af8c12" name="MySQL_get_connection" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="64b455ea-da78-4b96-aafb-ff5bfbf7dee2" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DClassMySQL_Basic Member%3DMySQL_get_connection" tag="ViewCode">
+                <elementDefinition Id="1ae590c6-e2f3-4746-b122-418d8d6a8b7e" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="89a25cca-3618-4bdb-a6d6-1ccf57185217" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="1c464c4e-37ad-4573-b2b8-8f93195003ce" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="476a72db-bfa0-4486-9721-c184d22f27ea" name="DataTable" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Data::DataTable">
+        <elementDefinition Id="14267fd3-1436-4441-abdb-4d2abbd1f83e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8bb0ebc1-0e99-421e-90c0-1cba0cd05cc3" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1095edbe-b421-4767-b8b1-3814b1a10b08" name="Object" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Object">
+        <elementDefinition Id="0c6a51fb-6872-4f34-8f85-787d658d41e2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d9408814-1481-4e5c-bfc2-0f6e3610bf76" name="MySqlConnection" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::MySql::Data::MySqlClient::MySqlConnection">
+        <elementDefinition Id="4a15294e-0e91-4272-924a-3df6b4cfbaa9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="42919a17-8715-41c8-b3e1-8da0b6d3df1d" name="classRoundingFunctions" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="81f57b53-456c-405a-a91e-37fd6dc2fdac" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions" tag="ViewCode">
+            <elementDefinition Id="7b10c109-ccf2-46e6-9619-b884ab0e873a" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="5e561965-799d-469a-bdeb-02f389a50d15" />
+        <ownedAttributesInternal>
+          <property Id="64039a70-37dc-43c0-b8bd-951fb491f20e" name="deductor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="4709259a-715c-4493-a136-eebb074dbbaa" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3Ddeductor" tag="ViewCode">
+                <elementDefinition Id="9fcf949a-3829-4af8-9272-43a52a7b37df" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="dc1822bf-06ca-4b6f-9c3e-2dcf2780fef0" />
+          </property>
+          <property Id="ebd118be-0d02-473d-85c1-4d2e5395e5cb" name="lv_number" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="2338364b-6056-4f13-a779-8d42cad3135e" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3Dlv_number" tag="ViewCode">
+                <elementDefinition Id="0b891e80-f621-4454-bf67-b57f3e13299a" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="27f40e52-6fa5-4c37-ab76-8c610f1c30b2" />
+          </property>
+          <property Id="962ee89b-114c-48c5-8cb4-7e9ff0d36478" name="nearest" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="4277c276-bd2d-4a5b-a50c-8f36462b8cf0" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3Dnearest" tag="ViewCode">
+                <elementDefinition Id="abacb2c8-b00a-44b0-948b-7556cf09bd54" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="ff38abc0-f86e-485b-9f58-5b54d6847ef8" />
+          </property>
+          <property Id="a1758a13-f6de-4aec-8a42-18640ddebe7d" name="resultLessVat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="0dc8dd0f-2d92-4538-ab95-aed1fa61c222" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3DresultLessVat" tag="ViewCode">
+                <elementDefinition Id="cf643b66-5897-4304-8668-00e767aaccba" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="cce78f8a-c929-4ea1-a856-4edeff2abf54" />
+          </property>
+          <property Id="9a010b9d-4de2-4b9a-814b-7cae96ea96dd" name="resultPlusVat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="2da3532c-f1af-4741-8096-6410b73b5454" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3DresultPlusVat" tag="ViewCode">
+                <elementDefinition Id="ef5fad6c-fb1a-450b-8b0a-b9736c19db24" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="a6bab973-00e8-4553-9641-f059f3030dff" />
+          </property>
+          <property Id="0ebdd8ee-6f87-4100-8c34-82cbb1e766d1" name="vatRate" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="bb06867f-9f67-4864-8089-f7796199c9b0" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3DvatRate" tag="ViewCode">
+                <elementDefinition Id="46a55782-eab6-454c-a707-c7388a7bea77" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="94a77d65-61e6-4368-b6ad-5ef61c960a56" />
+          </property>
+          <property Id="3cc76580-c9b4-4656-a74b-e6f6e7b65f8f" name="_deductor" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c558392f-133b-4fe0-81c6-19a9cf07d08d" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3D_deductor" tag="ViewCode">
+                <elementDefinition Id="a4191556-a3be-465c-a1c7-9a9d1b355f02" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="97fa58d1-6391-4ea0-ab7c-1b19ebef9617" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="8bfde302-abdf-4265-bf18-132336a8be7b" name="_lv_number" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="3f67d47d-490a-4b35-a67f-87743b2782cc" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3D_lv_number" tag="ViewCode">
+                <elementDefinition Id="915f003c-79cd-413c-b091-a634fb8296bb" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="0e5e317d-4b3b-4f03-99db-7f42149f8646" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="419f4146-49a3-4cc6-8230-b0cc9f907ff4" name="_pv_number" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="16622e4b-d7cc-468b-8506-40c83aacc096" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3D_pv_number" tag="ViewCode">
+                <elementDefinition Id="72b87849-ae49-4b34-a428-9be142859bcd" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="eb57b861-a2da-44a2-aefd-315dc875f6d4" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="89171600-7adb-4ff7-ba64-b1cf3690c7ae" name="_resultLessVat" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="f7e9db24-99e4-42d0-9ac5-e32a0daa2119" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3D_resultLessVat" tag="ViewCode">
+                <elementDefinition Id="53155572-0aaa-4017-9bae-1d7b04b039be" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="7c07686d-be8d-4a53-bd30-072417c95031" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="98463ead-10c0-4903-ab9b-fbed4b73e01f" name="_resultPlusVat" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c8d693c5-9ae3-4b5e-b598-b8efae7dd4f4" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3D_resultPlusVat" tag="ViewCode">
+                <elementDefinition Id="8f709b19-c76a-4516-9467-ec9b64782cee" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="cf37d04c-bdc7-411d-9af3-3cff3033e57d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="93e7b28a-ca84-4a03-b3a2-1f3b10646285" name="_significance" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="5c2b7f63-9165-4a5c-83a3-1175acc2ece7" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3D_significance" tag="ViewCode">
+                <elementDefinition Id="55eac59f-a6b8-4022-876f-9d490497278a" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="b0bf6af9-baf4-4a9c-82ae-c27298d00685" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="f7e78a4c-2750-433e-9951-155b37cfefcc" name="_vatRate" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="3b64b429-9e83-4c63-915d-2ccbee342aa1" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3D_vatRate" tag="ViewCode">
+                <elementDefinition Id="afa50bcc-6688-4e02-9acf-1517cfc6ef00" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="5ce18543-f209-4dee-8ef9-82bdc9942650" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="9110ecab-1c25-4a42-a802-4b59bddc592f" name="fn_lessvat" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="55e1ad81-8627-4247-9a71-c9f68d020aeb" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3Dfn_lessvat" tag="ViewCode">
+                <elementDefinition Id="2685fc9c-19c5-4b28-8399-3172ae9b6bce" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="d83812f6-58bc-47b6-ab3c-471b79e87ebf" />
+          </operation>
+          <operation Id="0bb3a1d2-e2d7-4e1b-a4e6-1f38f6fb93d8" name="fn_plusvat" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="15772937-07b7-4848-979f-5c4764f901ee" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3Dfn_plusvat" tag="ViewCode">
+                <elementDefinition Id="4f341291-d169-45e1-8418-3f078f3f5f37" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="18fdff18-c8c7-4459-b2e7-36aa529ed3d1" />
+          </operation>
+          <operation Id="61305bc8-090d-425d-8d23-a39d3b0e2178" name="roundit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="773c5bbf-89ee-4999-b5db-165fd4ee7042" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3Droundit" tag="ViewCode">
+                <elementDefinition Id="b1a3d6eb-227e-49ff-8881-95fc33d0cc17" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="61b62c37-43c9-44d7-b868-8d2fa2874893" />
+          </operation>
+          <operation Id="3bf1d388-7ab2-4c5e-b7f7-2997fcb38f6e" name="roundup" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a6b3f686-3156-4762-8826-f1891eea273a" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FOffice%2FDocuments%2FVisual Studio 2013%2FProjects%2FTech Squad ePOS%2FTech Squad ePOS%2Fbin%2FDebug%2FTech Squad ePOS.exe&quot; Namespace%3DTech_Squad_ePOS Type%3DclassRoundingFunctions Member%3Droundup" tag="ViewCode">
+                <elementDefinition Id="d285f795-3150-4bde-83bf-52d2ca62d567" />
+              </reference>
+            </referencesInternal>
+            <elementDefinition Id="4ae85dbe-42f7-4401-9693-da5da75e8209" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="bbd423fc-e48f-463e-bb2f-e43a54368dcc" name="Double" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Double">
+        <elementDefinition Id="91d73031-4c15-402a-9dbb-837ffc19f272" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="50b5dcd6-982c-4fd7-bebf-8ea4c2cfccf8" name="Company" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bc4edb74-a28a-4f44-96da-b2a8faa498ab" />
+        <targetEnds>
+          <association Id="44e0b091-ace2-4f63-9ad2-290b693fd137" isDerived="false" sourceEndRoleName="Company" targetEndRoleName="address" isLeaf="false" isAbstract="false">
+            <classMoniker Id="02d88942-a104-40f3-88c6-e62e338e3abb" LastKnownName="address" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="618d8897-7467-4a87-96b2-193058a0a3b1" name="Company" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf34e104-9c48-48b3-b725-878cef6829c6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5b848185-a583-4419-81cf-3dae56ff1704" name="address" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="48aac056-dce1-4eb6-bba1-60f91ffa3fe4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9bfbfe2a-813f-4c19-a706-7f346e9ef3aa" />
+          </association>
+          <association Id="7765da56-1e98-4e9a-9306-663e1e42dfca" isDerived="false" sourceEndRoleName="Company" targetEndRoleName="contact" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8a1f2840-4eb3-4a9d-9f6f-0d7c8a83809e" LastKnownName="contact" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5ad8a609-9c99-4b5c-88dc-05efc92f461e" name="Company" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="54b78f94-97ee-4348-96f7-778ed750816a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0fca5b4-b48c-4860-87c7-223f82df3ed1" name="contact" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1c8e967a-35f8-4646-a554-82d53d1e400c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b5989d25-774f-4e82-bf74-e58b8658e632" />
+          </association>
+          <association Id="89a4111e-db82-4d82-a9d8-73fbe36692d3" isDerived="false" sourceEndRoleName="Company" targetEndRoleName="merchant_account" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3d0a079d-5ad0-4750-ab22-ebd2487ca879" LastKnownName="merchant_account" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e73b5fb-f4d4-467f-91ff-8a6a3cfc594e" name="Company" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="65d055f4-2081-4e94-9bb8-b40e2821f85e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7da594e4-8d8c-41b0-b9d9-bf1ca14c33d4" name="merchant_account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dbafedeb-f485-44b0-ad26-b7213793b52e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="69dd4764-6367-4244-a7b7-57b7724a6525" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="625e61e1-6b35-43da-9b12-d150febc138d" name="company_name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f5d3a62c-5282-4d5f-a98e-85c52d08627d" />
+          </property>
+          <property Id="328125ee-d1a0-404b-876b-c708c9331da9" name="vat_number" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="37c40b32-8c18-4c3d-bf38-e1ab1f8f98a6" />
+          </property>
+          <property Id="bf0c90ea-75dc-4ab9-a45d-a19ede225c13" name="merchant_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1c94f621-a0c8-46db-b349-2d923a56d905" />
+          </property>
+          <property Id="f1675f92-0f1c-4d22-9c40-98edeb31c78d" name="address_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="44b9a40b-2a7d-439b-808d-8d2b6a0abaf5" />
+          </property>
+          <property Id="a5cc0d6a-9f4d-4890-bb9c-608b1cf8f651" name="contact_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1d852745-b317-43ff-8a4c-ea57bc576b25" />
+          </property>
+          <property Id="7afd5274-ff48-4487-aee0-492c974815ec" name="company_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="268c2fb2-7645-4da0-92ba-790c65b78041" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="422526f0-2ad1-4c9f-9ce2-3955b3f4c56e" name="Operation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3febda0a-8824-4c47-8477-364ca54495f2" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3d0a079d-5ad0-4750-ab22-ebd2487ca879" name="merchant_account" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="13b52a54-cc56-4972-937b-72ea606d4302" />
+        <targetEnds>
+          <association Id="5067d53c-2f2a-4d31-a9ca-7bf3e2d04f1c" isDerived="false" sourceEndRoleName="merchant_account" targetEndRoleName="card_terminal" isLeaf="false" isAbstract="false">
+            <classMoniker Id="81911793-95bd-46e9-8916-2db3aeb19faa" LastKnownName="card_terminal" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="45b90f82-4cfc-458f-88bf-60e20bd0a1c4" name="merchant_account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2fa4ecf6-5730-4cd0-a770-79264149a8e8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="92daa489-c8d2-4ba4-9199-a765a34f7810" name="card_terminal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ce3abe3d-2055-4324-ac3c-1ee14a821168" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4d37e738-3d3d-488b-9437-be8f620ebdde" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="2738bf4e-3633-434c-ac92-d2fc4d7d8902" name="merchant_name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5ec231c3-571b-404c-b123-b6695a336b4e" />
+          </property>
+          <property Id="11e26b7e-2681-43ce-8a16-a865563e8e86" name="merchant_number" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="82408869-efb8-4005-b8f7-1bfc6e50caa2" />
+          </property>
+          <property Id="5f0f24d9-96a9-4e43-9ec1-a0c0e20bf24d" name="merchant_helpline" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8e477d6f-46bf-4a9c-9f84-6575d18934f2" />
+          </property>
+          <property Id="ed90f1df-8d8b-480b-8d9e-02ffa1f381d1" name="merchant_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="73814ff5-7b38-40f7-a05a-67ee2e350b7a" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="81911793-95bd-46e9-8916-2db3aeb19faa" name="card_terminal" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="92ac4412-d99e-4d8b-95f5-7954332874b6" />
+        <ownedAttributesInternal>
+          <property Id="301af1fc-a4f3-49e1-856f-e57d7eb51987" name="terminal_model" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8ed4c6d3-1480-4ee8-924b-dda7ff22411a" />
+          </property>
+          <property Id="ebfce548-2653-41fe-aeb8-1505cefce7a0" name="terminal_date_received" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6bbbb2a9-7384-4952-bf3b-64c998632069" />
+          </property>
+          <property Id="8c63065b-3d8d-4874-bff0-f74b63c082a6" name="terminal_date_returned" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="14f9619f-c161-4a7e-b839-3caea580d30b" />
+          </property>
+          <property Id="24f4c16f-fc4b-4b78-8e83-b3218490cd05" name="terminal_status" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b007a24c-b7a2-4813-9795-4256cbbb962b" />
+          </property>
+          <property Id="8020270c-0137-49de-94ae-92b5ddb7422a" name="merchant_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e25d3c40-21f5-4d2d-a5af-9ca440ea63e6" />
+          </property>
+          <property Id="3dcf8db0-006f-4df0-9803-59771a04bace" name="terminal_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4da1afa8-c53a-4265-87d3-b1768df4f614" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="02d88942-a104-40f3-88c6-e62e338e3abb" name="address" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7bd707b5-0a73-446a-a162-56c61041f449" />
+        <ownedAttributesInternal>
+          <property Id="77eda6b5-17a5-4b08-beca-c3377200b2c8" name="address_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fd0e17e2-fc62-4b26-a2ac-94ef1548d0b2" />
+          </property>
+          <property Id="5efb17c0-9e53-48d4-9d7e-d5ada5284615" name="cust_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a2d4a83a-5ac0-445d-b6a4-66c01644aa22" />
+          </property>
+          <property Id="7dc18666-f5d5-464b-8ea9-06c5af03116c" name="add_1" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="06923566-cfee-4eea-bc26-70a22e6a1521" />
+          </property>
+          <property Id="0695b31a-743f-44c7-8e61-e16002bf3f2c" name="add_2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5347eebf-916c-4843-aaa8-ba2df32b385c" />
+          </property>
+          <property Id="74998c2e-0a2f-40aa-998c-ec6f154ece3a" name="town" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="49792bd2-cab6-4ef3-975f-eb0cfe9016a8" />
+          </property>
+          <property Id="3bcc9461-ead9-4fee-a5c9-5c38a5ecc9d6" name="city" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1a1054b5-392a-4c80-ac15-033cedb357d6" />
+          </property>
+          <property Id="eac22f37-ffe5-438d-8eae-f019df3de40a" name="postcode" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b593914b-eecd-495a-a5b4-8a2ebc892062" />
+          </property>
+          <property Id="1ff42d45-77ab-4f55-849c-35c45468e84a" name="in_use" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3b56f9fc-bc73-41ed-ac8d-3e061ad487f6" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8a1f2840-4eb3-4a9d-9f6f-0d7c8a83809e" name="contact" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="295db338-8f33-4442-8ab4-cd6a2c056d44" />
+        <ownedAttributesInternal>
+          <property Id="010cdb73-8a63-435a-aa9a-56cc50418c02" name="contact_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="138d40f8-1d64-4b01-904d-c18f38575da6" />
+          </property>
+          <property Id="c748c38e-b158-4986-a365-fe43da49c661" name="home_tel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a3df1f58-e413-4600-8ebd-eccb7b119a57" />
+          </property>
+          <property Id="65ad0e41-162c-403a-8d29-d2cafecc1011" name="cust_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d60147de-17b7-4e3b-b44c-0b5d9441ab6c" />
+          </property>
+          <property Id="f6cca899-6f9f-4a16-b0ff-f1241429f6ae" name="work_tel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2fc7cf00-33de-4f71-9254-4976aad67c66" />
+          </property>
+          <property Id="36c86fc8-a5aa-43ae-99f4-d8a6f6fd958c" name="mobile_tel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1929dad5-1854-4948-b903-9eede1bcb9b4" />
+          </property>
+          <property Id="50912e5d-f9cf-4661-94ad-2795babade6a" name="email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ec77c381-c645-4fca-ada2-7778aeaca7e3" />
+          </property>
+          <property Id="08404020-b794-47eb-8e98-3c09cc53cdac" name="fax" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4f0c3109-fc52-4cdd-85e9-54f4fb83b321" />
+          </property>
+          <property Id="92c27ec6-7a0f-4308-9b66-49d397824bdc" name="in_use" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e3a1669c-4b77-4f93-b9e7-c3fa28f0846f" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="23cc1612-5bb8-40a8-aa10-723dd372c686" name="ModelingProject1">
+    <elementDefinition Id="d37a93a5-d187-4b0d-90a4-abc81d3cad33" />
+  </package>
+</logicalClassDesignerModel>

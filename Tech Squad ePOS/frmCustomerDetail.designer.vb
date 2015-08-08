@@ -624,6 +624,8 @@ Partial Class frmCustomerDetail
         'chkMailing
         '
         Me.chkMailing.AutoSize = True
+        Me.chkMailing.Checked = True
+        Me.chkMailing.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkMailing.Location = New System.Drawing.Point(28, 42)
         Me.chkMailing.Name = "chkMailing"
         Me.chkMailing.Size = New System.Drawing.Size(78, 17)

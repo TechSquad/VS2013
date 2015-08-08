@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="class_company">
+  <logicalClassDesignerModelMoniker Id="2fbf3d65-67f7-49e6-a463-5ec8e9f664d8" />
+  <nestedChildShapes>
+    <classShape Id="9897dcd2-1458-40ac-b0b9-b8bc872f9d7c" absoluteBounds="5.375, 2, 1.5, 1.8632812052965169" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="89f187b4-325d-4078-a538-54c28a818409" LastKnownName="company" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="5e341284-4351-488a-af6d-26fe1a5e2c96" absoluteBounds="5.39, 2.39, 1.4700000000000002, 1.162109337747097" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="6dd209b0-027d-4324-b13e-08a6ac48ee50" absoluteBounds="5.39, 3.5621093377470974, 1.4700000000000002, 0.20117186754941963" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

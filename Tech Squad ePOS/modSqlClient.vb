@@ -86,7 +86,7 @@
         Dim sqlQuery As String
 
         sqlQuery = "INSERT INTO customer (membership, acct_type, title, first_name, last_name, company_name, date_of_birth, is_company, mailing_list, vip, in_use, date_created) "
-        sqlQuery = sqlQuery & "VALUES ('" & membership & "','" & acct_type & "','" & cust_title & "','" & first_name & "','" & last_name & "','" & company_name & "','" & dob & "'," & is_company & "," & mailing_list & "," & vip & "," & in_use & ", CURRENT_TIMESTAMP)"
+        sqlQuery = sqlQuery & "VALUES ('" & membership & "','" & acct_type & "','" & cust_title & "','" & first_name & "','" & last_name & "','" & company_name & "','" & dob & "'," & BoolToMySql(is_company) & "," & BoolToMySql(mailing_list) & "," & BoolToMySql(vip) & "," & BoolToMySql(in_use) & ", CURRENT_TIMESTAMP)"
         With classSql
             .db_Url = My.Settings.db_Url
             .db_User = My.Settings.db_User
@@ -107,7 +107,7 @@
         Dim classSql As New ClassMySQL_Basic
         Dim sqlQuery As String
 
-        sqlQuery = "UPDATE customer SET membership ='" & membership & "',acct_type='" & acct_type & "',title='" & cust_title & "',first_name='" & first_name & "',last_name='" & last_name & "',company_name='" & company_name & "',date_of_birth='" & dob & "',is_company=" & is_company & ",mailing_list=" & mailing_list & ",vip=" & vip & ",in_use=" & in_use & ",date_changed= CURRENT_TIMESTAMP WHERE cust_id = '" & cust_id & "'"
+        sqlQuery = "UPDATE customer SET membership ='" & membership & "',acct_type='" & acct_type & "',title='" & cust_title & "',first_name='" & first_name & "',last_name='" & last_name & "',company_name='" & company_name & "',date_of_birth='" & dob & "',is_company=" & BoolToMySql(is_company) & ",mailing_list=" & BoolToMySql(mailing_list) & ",vip=" & BoolToMySql(vip) & ",in_use=" & BoolToMySql(in_use) & ",date_changed= CURRENT_TIMESTAMP WHERE cust_id = '" & cust_id & "'"
         With classSql
             .db_Url = My.Settings.db_Url
             .db_User = My.Settings.db_User

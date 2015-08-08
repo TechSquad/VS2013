@@ -24,7 +24,7 @@ Partial Class frmSale
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSale))
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnVoid = New System.Windows.Forms.Button()
         Me.btnLookup = New System.Windows.Forms.Button()
@@ -157,8 +157,8 @@ Partial Class frmSale
         Me.dgvItems.MultiSelect = False
         Me.dgvItems.Name = "dgvItems"
         Me.dgvItems.RowHeadersVisible = False
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dgvItems.RowsDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgvItems.RowsDefaultCellStyle = DataGridViewCellStyle1
         Me.dgvItems.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvItems.Size = New System.Drawing.Size(1064, 320)
         Me.dgvItems.TabIndex = 4

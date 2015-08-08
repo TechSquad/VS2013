@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b25a8f39-59c4-4f19-aebd-14f98c48b191"
+  name="MySqlClient"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7809703e-1c1e-455a-8b73-f2feab3dd955"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMySql.Data.MySqlClient"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4a15294e-0e91-4272-924a-3df6b4cfbaa9"
+        name="MySqlConnection"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fe070d10-51e5-4316-bc2b-f918134cb9b0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMySQL%2FMySQL Connector Net 6.8.5%2FAssemblies%2Fv4.5%2FMySql.Data.dll&quot; Namespace%3DMySql.Data.MySqlClient Type%3DMySqlConnection"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

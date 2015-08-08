@@ -75,7 +75,7 @@
         Else                                            'If no exact match open frmInventoryList in Lookup Mode
             If Not IsOpen(f) Then                       'if child form is already open set focus to the form
                 'alter the form to allow an item to be selected
-                f.Message = "lookup"                  'call the overrided constructor of the child form
+                f.Message = "lookup"                  'call the overridden constructor of the child form
                 f.sku = SendData                      'Send the SKU for matching
                 If f.ShowDialog() = DialogResult.OK Then     'Open as dialog to wait for return value
                     item_id = f.Message            ' Receive back the item_id
@@ -186,7 +186,7 @@
         Else
             If Not IsOpen(f) Then                            'if child form is already open set focus to the form
                 f.title = "Confirm"                  'call the overrided constructor of the child form
-                f.message = "You are about to Void this Sale, this change is permenant. Click OK to delete or cancel to abort the change"
+                f.message = "You are about to Void this Sale, this change is permanent. Click OK to delete or cancel to abort the change"
                 f.okOnly = False
                 f.okButtonText = "OK"
                 If f.ShowDialog() = DialogResult.OK Then     'Open as dialog to wait for return value
@@ -265,5 +265,29 @@
         Else
             Timer1.Enabled = False
         End If
+    End Sub
+
+    Private Sub btnAssignCustomer_Click(sender As Object, e As EventArgs) Handles btnAssignCustomer.Click
+
+    End Sub
+
+    Private Sub btnSimpleCustomer_Click(sender As Object, e As EventArgs) Handles btnSimpleCustomer.Click
+
+    End Sub
+
+    Private Sub btnAdjustPrice_Click(sender As Object, e As EventArgs) Handles btnAdjustPrice.Click
+
+    End Sub
+
+    Private Sub btnAdjustQuantity_Click(sender As Object, e As EventArgs) Handles btnAdjustQuantity.Click
+
+    End Sub
+
+    Private Sub btnDiscountItem_Click(sender As Object, e As EventArgs) Handles btnDiscountItem.Click
+
+    End Sub
+
+    Private Sub txtSku_TextChanged(sender As Object, e As EventArgs) Handles txtSku.TextChanged
+
     End Sub
 End Class

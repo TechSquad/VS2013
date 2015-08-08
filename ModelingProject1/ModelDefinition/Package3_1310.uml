@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4efe5596-afc6-4c2d-80de-27c9910a6492"
+  name="Word"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ccbba75c-ddca-46ac-9dd3-1c6efce6f871"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Office.Interop.Word"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="28d840a0-ef01-4114-a7c8-69905a9292fc"
+        name="Document"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="c3dea0de-32d9-4feb-8604-405989ee74b4"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2Fassembly%2FGAC_MSIL%2FMicrosoft.Office.Interop.Word%2F14.0.0.0__71e9bce111e9429c%2FMicrosoft.Office.Interop.Word.dll Namespace%3DMicrosoft.Office.Interop.Word Type%3DDocument"
+            tag="ViewCode" />
+        </referencesInternal>
+        <generalsInternal>
+          <generalization
+            Id="c3f68c4a-5c7f-4879-ab34-ed1ab6c95421"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="a33bc53c-f4b0-4cd6-b7d5-14e0c9bbb4be"
+              LastKnownName="_Document"
+              LastKnownLocation="Package3_1310.uml" />
+          </generalization>
+        </generalsInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="5577fd99-5242-4115-beea-24790f146d85"
+        name="Application"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="157bddd2-b29e-4d24-b034-67e64b4df692"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2Fassembly%2FGAC_MSIL%2FMicrosoft.Office.Interop.Word%2F14.0.0.0__71e9bce111e9429c%2FMicrosoft.Office.Interop.Word.dll Namespace%3DMicrosoft.Office.Interop.Word Type%3DApplication"
+            tag="ViewCode" />
+        </referencesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="a33bc53c-f4b0-4cd6-b7d5-14e0c9bbb4be"
+        name="_Document"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="46c9855a-db03-441b-bebe-e8cf05d83ffb"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2Fassembly%2FGAC_MSIL%2FMicrosoft.Office.Interop.Word%2F14.0.0.0__71e9bce111e9429c%2FMicrosoft.Office.Interop.Word.dll Namespace%3DMicrosoft.Office.Interop.Word Type%3D_Document"
+            tag="ViewCode" />
+        </referencesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
